@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    
+}
+
+.newYearTurs {
+    height: 20vh;
+    background-color: rgb(147, 200, 147);
+    padding: 10px;
+}
+
+h1 {
+
+    text-align: center;
+    text-align-last: justify;
+    padding: 0px 300px;
+    font-size: 20px;
+    text-decoration-line:overline;
+}
+
+.newYearTurs ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+li:nth-child(3n+2){
+    text-decoration: underline dashed 1px green;
+}
+
+li:nth-child(3){
+    text-decoration:line-through 1px rgb(148, 49, 49);
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+p{
+    font-size: 15px;
+    text-indent: 15px;
+    text-align: center;
+}
+    .prague,.paris,.germany,.austria{
+        border-width: 4px;
+        padding: 5px;
+        height: 129px;
+        width: 300px;
+        text-align: center;
+    }
+.prague {
+    border-style:dotted;
+    margin: 48px 26px;
+    background-color: yellow;
+}
+
+.paris {
+    border-style:dashed;
+    margin-left: 50rem;
+    background-color: greenyellow;
+}
+
+.germany{
+    border-style:dashed;
+    margin-left: 16rem;
+    background-color: violet;
+}
+
+.austria{
+    border-style:dotted;
+    margin-left: 43rem;
+    background-color: coral;
+}
+
+
