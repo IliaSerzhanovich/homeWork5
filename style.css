@@ -1,24 +1,25 @@
 body {
     margin: 0;
-    
 }
 
 .newYearTurs {
     height: 20vh;
-    background-color: rgb(147, 200, 147);
+    background-color: #93c893;
     padding: 10px;
+    overflow: auto;
 }
 
 h1 {
-
     text-align: center;
-    text-align-last: justify;
-    padding: 0px 300px;
+    word-spacing: 27px;
+    padding: 0px 20%;
     font-size: 20px;
     text-decoration-line:overline;
 }
 
 .newYearTurs ul{
+    margin: 0 auto;
+    width: 50vw;
     list-style-type: none;
     text-align: center;
     font-size: 15px;
@@ -26,11 +27,11 @@ h1 {
 }
 
 li:nth-child(3n+2){
-    text-decoration: underline dashed 1px green;
+    text-decoration: underline dashed 1px #008000;
 }
 
 li:nth-child(3){
-    text-decoration:line-through 1px rgb(148, 49, 49);
+    text-decoration:line-through 1px #943131;
 }
 
 h2{
@@ -41,39 +42,41 @@ h2{
 }
 
 p{
-    font-size: 15px;
+    font-size:small;
     text-indent: 15px;
     text-align: center;
 }
-    .prague,.paris,.germany,.austria{
+
+.prague,.paris,.germany,.austria{
         border-width: 4px;
         padding: 5px;
-        height: 129px;
-        width: 300px;
+        height: 15vh;
+        width: 20vw;
         text-align: center;
-    }
+        overflow: auto;
+}
 .prague {
     border-style:dotted;
-    margin: 48px 26px;
-    background-color: yellow;
+    margin: 2vh 5vw 0vh;
+    background-color: #fbfb11;
 }
 
 .paris {
     border-style:dashed;
-    margin-left: 50rem;
-    background-color: greenyellow;
+    margin: 0vh 57vw 0vh;
+    background-color: #8fde19;
 }
 
 .germany{
     border-style:dashed;
-    margin-left: 16rem;
-    background-color: violet;
+    margin: 0vh 30vw 0vh;
+    background-color: #c38bfc;
 }
 
 .austria{
     border-style:dotted;
-    margin-left: 43rem;
-    background-color: coral;
+    margin: 0vh 47vw 0vh;
+    background-color: #fc8d49;
 }
 
 
